@@ -5,7 +5,7 @@ import { CryptocurrencyApiResponse } from "./types/CryptocurrencyApiResponseDto"
 export class Client {
   private secretKey?: string;
   private apiKeyName = "api_key";
-  private apiEndPoint = "https://plisio.net/api/v1/";
+  private apiEndPoint = "https://api.plisio.net/api/v1/";
 
   constructor(secretKey?: string) {
     this.setSecretKey(secretKey);
